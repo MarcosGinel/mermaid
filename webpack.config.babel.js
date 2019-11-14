@@ -6,6 +6,7 @@ const config = jsConfig()
 
 const coreConfig = jsConfig()
 coreConfig.externals = [nodeExternals()]
+
 coreConfig.output.filename = '[name].core.js'
 
 export default [config, coreConfig]
